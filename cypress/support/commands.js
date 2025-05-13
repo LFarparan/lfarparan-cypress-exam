@@ -1,5 +1,3 @@
-
-
 Cypress.Commands.add('fillRegForm', (user) => {
     cy.get('#username').type(user.username).should('be.visible')
     cy.get('#email').type(user.email).should('be.visible')
